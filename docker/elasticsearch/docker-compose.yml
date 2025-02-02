@@ -1,0 +1,29 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.security.http.ssl.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+  es-init:
+    image: curlimages/curl:latest
+    container_name: es-init
+    depends_on:
+      - elasticsearch
+    restart: "no"
+    volumes:
+      - ./mappings:/mappings
+      - ./init-es.sh:/init-es.sh
+      - ./sample_data:/sample_data
+    entrypoint: ["/bin/sh", "-c", "chmod +x /init-es.sh && /init-es.sh"]
+
+volumes:
+  esdata:
+    driver: local

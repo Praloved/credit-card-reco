@@ -1,0 +1,72 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "text"
+      },
+      "parentCompany": {
+        "type": "keyword"
+      },
+      "suitableFor": {
+        "type": "keyword"
+      },
+      "loungeBenefits": {
+        "type": "boolean"
+      },
+      "extraBenefits": {
+        "type": "keyword"
+      },
+      "annualFee": {
+        "type": "double"
+      },
+      "premium": {
+        "type": "boolean"
+      },
+      "interestRate": {
+        "type": "double"
+      },
+      "foreignTransactionFee": {
+        "type": "double"
+      },
+      "rewardExpiry": {
+        "type": "integer"
+      },
+      "fuelSurchargeWaiver": {
+        "type": "boolean"
+      },
+      "welcomeBonus": {
+        "type": "text"
+      },
+      "eligibilityCriteria": {
+        "type": "text"
+      },
+      "issuedBy": {
+        "type": "keyword"
+      },
+      "maxCashbackLimit": {
+        "type": "double"
+      },
+      "rewards": {
+        "type": "nested",
+        "properties": {
+          "category": {
+            "type": "keyword"
+          },
+          "pointsPerSpend": {
+            "type": "double"
+          },
+          "spendAmount": {
+            "type": "double"
+          }
+        }
+      }
+    }
+  }
+}
