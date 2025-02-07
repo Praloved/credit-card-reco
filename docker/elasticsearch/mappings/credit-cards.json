@@ -35,9 +35,6 @@
       "foreignTransactionFee": {
         "type": "double"
       },
-      "rewardExpiry": {
-        "type": "integer"
-      },
       "fuelSurchargeWaiver": {
         "type": "boolean"
       },
@@ -52,20 +49,6 @@
       },
       "maxCashbackLimit": {
         "type": "double"
-      },
-      "rewards": {
-        "type": "nested",
-        "properties": {
-          "category": {
-            "type": "keyword"
-          },
-          "pointsPerSpend": {
-            "type": "double"
-          },
-          "spendAmount": {
-            "type": "double"
-          }
-        }
       }
     }
   }

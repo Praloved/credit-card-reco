@@ -16,13 +16,18 @@ echo "Creating credit_cards index..."
 curl -X PUT "http://elasticsearch:9200/credit_cards" -H "Content-Type: application/json" -d @/mappings/credit-cards.json
 echo "✅ Index created successfully!"
 
+echo "Creating user_features index..."
+curl -X PUT "http://elasticsearch:9200/user_features" -H "Content-Type: application/json" -d @/mappings/user-features.json
+echo "✅ Index created successfully!"
+
 # ✅ Insert Sample Data
 if [ -f "/sample_data/credit_cards_data.json" ]; then
     echo "Inserting credit card records..."
 
     while IFS= read -r line
     do
-      curl -X POST "http://elasticsearch:9200/credit_cards/_doc/" -H "Content-Type: application/json" -d "$line"
+      DOCUMENT_ID=$(echo "$line" | jq -r '.id')
+      curl -X POST "http://elasticsearch:9200/credit_cards/_doc/$DOCUMENT_ID" -H "Content-Type: application/json" -d "$line"
       echo "Inserted: $line"
     done < /sample_data/credit_cards_data.json
 

@@ -1,0 +1,11 @@
+version: "3"
+services:
+  reco-core:
+    build: .
+    image: reco-core:1.0-SNAPSHOT
+    platform: linux/amd64
+    ports:
+      - "8080:8080"
+
+volumes:
+  reco-core-volume:

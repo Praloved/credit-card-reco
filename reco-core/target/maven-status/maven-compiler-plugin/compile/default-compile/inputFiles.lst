@@ -1,0 +1,11 @@
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/config/AppConfiguration.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/provider/IDataProvider.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/model/affinity/UserCreditAffinity.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/provider/impl/ElasticSearchDataProvider.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/utils/UserFeatureExtractor.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/model/request/CreditCardRequest.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/config/ElasticSearchConfig.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/model/response/CreditCardDocument.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/CreditCardRecommendationApp.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/resource/UserStatementResource.java
+/Users/praloved/projects/credit-card-reco/reco-core/src/main/java/org/project/loader/UserDataLoader.java
