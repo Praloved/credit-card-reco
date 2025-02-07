@@ -1,0 +1,14 @@
+org/project/model/response/CreditCardDocument$CreditCardDocumentBuilder.class
+org/project/config/AppConfiguration.class
+org/project/utils/UserFeatureExtractor.class
+org/project/loader/UserDataLoader.class
+org/project/model/affinity/UserCreditAffinity.class
+org/project/resource/UserStatementResource.class
+org/project/config/ElasticSearchConfig$ElasticSearchConfigBuilder.class
+org/project/model/request/CreditCardRequest.class
+org/project/provider/IDataProvider.class
+org/project/model/request/CreditCardRequest$CreditCardRequestBuilder.class
+org/project/provider/impl/ElasticSearchDataProvider.class
+org/project/CreditCardRecommendationApp.class
+org/project/config/ElasticSearchConfig.class
+org/project/model/response/CreditCardDocument.class

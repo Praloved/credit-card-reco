@@ -13,7 +13,7 @@ services:
       - esdata:/usr/share/elasticsearch/data
 
   es-init:
-    image: curlimages/curl:latest
+    image: badouralix/curl-jq
     container_name: es-init
     depends_on:
       - elasticsearch

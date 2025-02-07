@@ -1,0 +1,51 @@
+Date,Description,Amount,Transaction Type
+2024-10-01,Salary Credit,₹75000.00,CREDIT
+2024-10-03,Amazon Purchase,₹3200.50,DEBIT
+2024-10-05,Uber Ride,₹500.00,DEBIT
+2024-10-07,Monthly Rent,₹25000.00,DEBIT
+2024-10-08,Starbucks Coffee,$15.00,DEBIT
+2024-10-10,Investment Return,₹5000.00,CREDIT
+2024-10-12,Netflix Monthly Subscription,₹650.00,DEBIT
+2024-10-14,Flight Booking,₹18200.00,DEBIT
+2024-10-15,Cashback Bonus,₹200.00,CREDIT
+2024-10-16,Restaurant Bill,$58.75,DEBIT
+2024-10-18,Mutual Fund SIP,₹10000.00,DEBIT
+2024-10-20,ATM Withdrawal,₹5000.00,DEBIT
+2024-10-21,Gym Membership,₹2000.00,DEBIT
+2024-10-23,Freelance Payment,$750.00,CREDIT
+2024-10-25,Grocery Shopping,₹4800.00,DEBIT
+2024-10-27,Electricity Bill Payment,₹1500.00,DEBIT
+2024-10-28,Refund from Flipkart,₹1200.00,CREDIT
+2024-10-30,Fuel Payment,₹1000.00,DEBIT
+2024-11-01,Salary Credit,₹78000.00,CREDIT
+2024-11-03,Mango Grocery Store,₹2350.75,DEBIT
+2024-11-04,Zomato Food Order,₹1200.00,DEBIT
+2024-11-05,Amazon Kindle Purchase,₹9999.00,DEBIT
+2024-11-07,Mobile Phone Recharge,₹399.00,DEBIT
+2024-11-08,Online Course Payment,$120.00,DEBIT
+2024-11-09,Interest Income,$150.00,CREDIT
+2024-11-10,Medical Bill Payment,₹6000.00,DEBIT
+2024-11-12,Gift to Friend,$50.00,DEBIT
+2024-11-13,Airbnb Stay Booking,€280.00,DEBIT
+2024-11-15,Spotify Premium Subscription,₹199.00,DEBIT
+2024-11-16,Uber Ride,₹350.00,DEBIT
+2024-11-18,Salary Advance,₹10000.00,CREDIT
+2024-11-20,Domino's Pizza,₹640.00,DEBIT
+2024-11-21,Electricity Bill Payment,₹2100.00,DEBIT
+2024-11-22,Freelance Payment,$500.00,CREDIT
+2024-11-23,Car Loan EMI,₹15000.00,DEBIT
+2024-11-25,Diwali Festival Gifts,₹1800.00,DEBIT
+2024-11-26,Health Insurance Premium,₹12000.00,DEBIT
+2024-11-28,Life Insurance Policy Credit,₹25000.00,CREDIT
+2024-11-29,Book Purchase (Bookstore),₹2500.00,DEBIT
+2024-11-30,Apple Subscription Renewal,₹999.00,DEBIT
+2024-12-01,Salary Credit,₹75000.00,CREDIT
+2024-12-02,Ebay Electronics Purchase,$300.00,DEBIT
+2024-12-04,Charity Donation,₹3500.00,DEBIT
+2024-12-05,Credit Card Cashback,₹500.00,CREDIT
+2024-12-07,Movie Tickets,₹1600.00,DEBIT
+2024-12-08,Child's School Fees,₹25000.00,DEBIT
+2024-12-10,Hotel Booking,$250.00,DEBIT
+2024-12-12,Flight Ticket Refund,₹18000.00,CREDIT
+2024-12-14,Yoga Class Membership,₹2200.00,DEBIT
+2024-12-15,Monthly Rent,₹24000.00,DEBIT
